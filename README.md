@@ -14,5 +14,6 @@ Before you get started create a new .md file called "ANTH 641_Week 8_YOURNAME" w
 If you are using RStudio on your own machine make sure to download ANTH 641 - Week8_1 from this repo and place it into the directory you'll be using. Remember to set up your working directory in RStudio so you can access this file and have a central place to store your files. 
 
 ## Working with RStudio through mybinder
+Once you've forked this repo, set up your own mybinder using your new GitHub repo and replace the link below: 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kgarstki/Working-with-R/master)
