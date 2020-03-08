@@ -1,5 +1,5 @@
 # ANTH 641 Week 8
-This week's assignments take place in RStudio. You can either run RStudio on your own computer (you can download it [here](https://rstudio.com/products/rstudio/download/#download)). You can also run it in your browser through mybinder. 
+This week's assignments take place in RStudio. You can either run RStudio on your own computer (you can download it [here](https://rstudio.com/products/rstudio/download/#download)) or you can run it in your browser with mybinder. 
 
 Before you get started on the assignments, make sure to fork this repo so that you can upload and edit files. 
 
