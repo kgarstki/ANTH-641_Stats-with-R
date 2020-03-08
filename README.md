@@ -5,14 +5,13 @@ This week's assignments take place in RStudio. You can either run RStudio on you
 
 Before you get started on the assignments, make sure to fork this repo so that you can upload and edit files. 
 
-There are two exercises this week; the first exercise is completed by following instructions on a Rscript file found in this repo (ANTH 641 - Week8_1), the second exercise includes instructions in a .md file also in this repo. The first exercise uses data from The "archdata" package was created by David L. Carlson and Georg Roth to accompany "Quantitative Methods in Archaeology Using R" by David L. Carlson (2017). 
+There are two exercises this week. The first exercise is completed by following instructions on a Rscript file found in this repo (ANTH 641 - Week8_1) and uses data from The "archdata" package was created by David L. Carlson and Georg Roth to accompany "Quantitative Methods in Archaeology Using R" by David L. Carlson (2017). The second exercise includes instructions in a .md file also in this repo and shows you how to gather data from Open Context and manipulate it in R.  
 
-Also, before you get started create a new .md file called "ANTH 641_Week 8_YOURNAME" which will act as your notes for your activities - the exercises will ask you at various times to write out your impressions or findings in this file. 
-
+Before you get started create a new .md file called "ANTH 641_Week 8_YOURNAME" which will act as your notes for your activities - the exercises will ask you at various times to write out your impressions or findings in this file. 
 
 
 ## Working with RStudio on your desktop
-If you are 
+If you are using RStudio on your own machine make sure to download ANTH 641 - Week8_1 from this repo and place it into the directory you'll be using. Remember to set up your working directory in RStudio so you can access this file and have a central place to store your files. 
 
 ## Working with RStudio through mybinder
 
