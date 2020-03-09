@@ -46,15 +46,17 @@ This shows us how many of the five types of glass are found at each of the 9 loc
 
 5. One final thing we could do with these two categorical variables are to see if they are related in some way (significantly co-occurring). Basically, are the two variables independent or can we “predict” one based on the other? In this case we might wonder if the higher numbers of glass found in one location is a meaningful pattern or if has occurred by more or less random deposition? We can compute a Chi-square to test if the data confirms our null hypothesis that they are independent variables or if we have reason to doubt the null hypothesis. 
 
-`murlo.chi <- chisq.test(Glasstab)
-murlo.chi`
+`murlo.chi <- chisq.test(Glasstab)`
+
+`murlo.chi`
 
 We want to look at our “p-value” calculated here. The general rule is that if the p-value is over 0.05 than there is no reason to doubt these variables are independent, if it is below 0.05 than you have reason to reject the null hypothesis. What is the p-value? What does that lead you to believe? 
 
 __A final note on this__: there are a number of problems with this sample that leads us to doubt the chi-squared. First, some values are very very small, which can skew the calculation. One step to take is to run a simulation with thousands of randomly generated tables with the same marginal values as ours – this may help a little.  
 
-`set.seed(*random number here*)
-chisq.test(Glasstab, simulate.p.value=TRUE)`
+`set.seed(*random number here*)`
+
+`chisq.test(Glasstab, simulate.p.value=TRUE)`
 
 However, one of the main problems is that we are not including zero values for locations on the excavations where glass had never been found. The only areas of Poggio Civitate that are included in this data table are those where at least one piece (of any type) of glass was found. We’re immediately biasing our data. Perhaps with those extra “zeros” the relationship between the variables (Type and Context) would be significant. This is why we ALWAYS interrogate any statistical analysis on archaeological data – there are many places for misuse or bias. 
 
