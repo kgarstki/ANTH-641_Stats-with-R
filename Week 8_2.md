@@ -7,9 +7,11 @@ For your final project you’ll be gathering data from archives or published sou
 1. Go to the [Project Murlo: Poggio Civitate Excavation Project](https://opencontext.org/projects/DF043419-F23B-41DA-7E4D-EE52AF22F92F) on Open Context. Read through the project description of the site – it’s always good to know the context of the data you’re working with! 
 
 2. Click on the __Data Records__ dropdown menu and choose __Glass__.
+![alt text](https://github.com/kgarstki/ANTH-641_Stats-with-R/blob/master/Images/Image1.png)
 
 3. On the next page with the Glass search results, click on __Export or Map Records__. 
 
+![alt text](https://github.com/kgarstki/ANTH-641_Stats-with-R/blob/master/Images/Image2.png)
 4. Export this data as a Table (csv) and save to file as “Murlo_glass.”
 
 ## Altering the Data
