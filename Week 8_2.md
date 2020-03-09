@@ -16,7 +16,7 @@ For your final project you’ll be gathering data from archives or published sou
 
 ## Altering the Data
 
-We now have a data table of all of the glass found in Poggio Civitate. For our purposes, we are interested in only part of the data found in this table. REMEMBER, when you’re manipulated data in any way, make sure you work off of a duplicated copy so that the original data remains in tack (just in case you mess up). We’re going to use Excel to simplify our dataset, and then bring the table into OpenRefine to clean some things up. 
+We now have a data table of all of the glass found in Poggio Civitate. For our purposes we are interested in only part of the data found in this table. REMEMBER, when you’re manipulating data in any way, make sure you work off of a duplicated copy so that the original data remains intact (just in case you mess up). We’re going to use Excel to simplify our dataset, and then bring the table into OpenRefine to clean some things up. 
 
 1. Open your Murlo_glass.csv file in Excel. We are going to simplify the table by removing some columns (many of them). Delete all of the columns EXCEPT: Item Label, Context (3), Context (4), Has type, Object Type, Fabric Description, Object Type (notes). 
 
