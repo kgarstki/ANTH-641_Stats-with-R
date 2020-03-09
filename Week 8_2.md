@@ -32,7 +32,7 @@ We now have a data table of all of the glass found in Poggio Civitate. For our p
 `Murlo_glass <- read.csv("Murlo_glass1.csv", header=TRUE, sep=",")` 
 
 The “header=TRUE” keeps the column headers you have in your table and the “sep=”,” identifies that the commas in the file separate values. 
-Then view your dataframe to make sure it import okay: `View(Murlo_glass)`
+Then view your dataframe to make sure it imported okay: `View(Murlo_glass)`
 
 2. Now, we’re interested in the types of glass found in different locations at the Poggio Civitate site, so let’s make a cross-tabulation of the Type and Context. 
 
@@ -44,7 +44,7 @@ This shows us how many of the five types of glass are found at each of the 9 loc
 
 `barplot(Glasstab, ylab="Number of fragments", main="Glass found in Poggio Civitate", legend.text = TRUE, args.legend = list(x="topleft"))`
 
-4. What are the patterns do you notice? How would you go about interrogating these patterns further? Discuss this in your blog post. 
+4. What patterns do you notice? How would you go about interrogating these patterns further? Discuss this in your blog post. 
 
 5. One final thing we could do with these two categorical variables are to see if they are related in some way (significantly co-occurring). Basically, are the two variables independent or can we “predict” one based on the other? In this case we might wonder if the higher numbers of glass found in one location is a meaningful pattern or if has occurred by more or less random deposition? We can compute a Chi-square to test if the data confirms our null hypothesis that they are independent variables or if we have reason to doubt the null hypothesis. 
 
