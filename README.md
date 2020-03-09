@@ -1,7 +1,7 @@
 # ANTH 641 Week 8 - (Re)analysis of Archaeological Data with Stats
 We will conduct a very basic introduction to archaeological statistical analysis using R. This is by no means an end point for either stats in archaeology OR R. You'll explore some of the possibilities for analysis using R with archaeological data, but as you progress in your research you'll need to explore more. If you have no background in stats, it may be helpful to look through the documentation in this repo. Even if you have a background, you may need a refresher.
 
-This week's assignments take place in RStudio. You can either run RStudio on your own computer (you can download it [here](https://rstudio.com/products/rstudio/download/#download)) or you can run it in your browser with mybinder. 
+This week's assignments take place in RStudio. You can either run RStudio on your own computer (you can download it [here](https://rstudio.com/products/rstudio/download/#download)) or you can run it in your browser with binder. 
 
 Before you get started on the assignments, make sure to fork this repo so that you can upload and edit files. 
 
@@ -13,7 +13,7 @@ Before you get started create a new .md file called "ANTH 641_Week 8_YOURNAME" w
 ## Working with RStudio on your desktop
 If you are using RStudio on your own machine make sure to download ANTH 641 - Week8_1 from Canvas and place it into the directory you'll be using. Remember to set up your working directory in RStudio so you can access this file and have a central place to store your files. 
 
-## Working with RStudio through mybinder
-Once you've forked this repo, set up your own mybinder using your new GitHub repo and replace the link below: 
+## Working with RStudio through binder
+Once you've forked this repo, set up your own binder using your new GitHub repo and replace the link below: 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kgarstki/Working-with-R/master)
