@@ -36,7 +36,7 @@ Then view your dataframe to make sure it imported okay: `View(Murlo_glass)`
 
 2. Now, we’re interested in the types of glass found in different locations at the Poggio Civitate site, so let’s make a cross-tabulation of the Type and Context. 
 
-`(Glasstab <- xtab(~Type+Context, Murlo_glass))`
+`(Glasstab <- xtabs(~Type+Context, Murlo_glass))`
 
 This shows us how many of the five types of glass are found at each of the 9 locations (including Unrecorded). 
 
