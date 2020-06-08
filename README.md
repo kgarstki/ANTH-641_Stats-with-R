@@ -17,3 +17,5 @@ If you are using RStudio on your own machine make sure to download ANTH 641 - We
 Once you've forked this repo, set up your own binder using your new GitHub repo and replace the link below: 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kgarstki/Working-with-R/master)
+
+For more advanced archaeological statistics using R, check out [Marwick 2017](https://benmarwick.github.io/How-To-Do-Archaeological-Science-Using-R/).
